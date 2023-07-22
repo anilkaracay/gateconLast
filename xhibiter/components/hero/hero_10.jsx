@@ -2,11 +2,10 @@ import Image from "next/image";
 
 const Hero_10 = () => {
   const heroContent = {
-    meta: "xxx",
-    title: "Enjoy choosing to invest in digital currencies.",
-    descriptions: `Every digital creation available through MakersPlace is an
-        authentic and truly unique.`,
-    btnText: "Start Free Trial",
+    meta: "Best Gaming Experience in Web3",
+    title: "Simplest Web3 gaming for anyone and everyone",
+    descriptions: `Making Web3 games accessible and fun`,
+    btnText: "Join Waitlist",
   };
 
   return (
