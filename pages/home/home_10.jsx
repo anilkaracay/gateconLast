@@ -16,7 +16,6 @@ const Home_1 = () => {
     <main>
       <Meta title="gatecon" />
       <Hero_10 />
-
       <Feature />
       <Process />
       <FancyBlock />

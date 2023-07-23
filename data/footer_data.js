@@ -105,7 +105,7 @@ const socialIcons = [
   },
   {
     id: 2,
-    href: "https://www.twitter.com",
+    href: "https://www.twitter.com/gateconapp",
     text: "twitter",
   },
   {
@@ -115,7 +115,7 @@ const socialIcons = [
   },
   {
     id: 4,
-    href: "https://www.instagram.com",
+    href: "https://www.instagram.com/gateconapp/",
     text: "instagram",
   },
   {
