@@ -2,11 +2,9 @@ import Image from "next/image";
 
 const FancyBlock = () => {
   const fancyList = [
-    ` Safe storage of cryptocurrencies – take control of your own
-assets`,
-    `  Safe storage of cryptocurrencies – take control of your own
-assets`,
-    ` 10,000+ DApps - enjoy DeFi`,
+    ` Easy Onboarding`,
+    `  User Friendly Experience`,
+    ` No crypto required`,
   ];
 
   return (
@@ -41,14 +39,14 @@ assets`,
             {/* <!-- Info --> */}
             <div className="py-10 px-6 lg:w-[37%] lg:pl-28">
               <h2 className="mb-6 font-display text-3xl text-jacarta-700 dark:text-white">
-                The safest most secure crypto app like never before
+                Modular Gaming Platform
               </h2>
               <p className="mb-12 text-lg leading-normal dark:text-jacarta-300">
-                Xhibiter security is unlike every other. It’s better. No more
-                complex passwords or long phrases to store, browser extensions,
-                or special hardware required. Your account is secured by private
-                facial biometrics and industry-leading encryption to keep you
-                safe from account
+                Gamers will be able to transition between Web2 and Web3 at their
+                convenience. This ease of transition will allow them to utilize
+                the advantages of blockchain in the gaming world. <br />
+                Thanks to the social features of the platform, players will be
+                able to stay in touch with each other at any time.
               </p>
 
               {fancyList.map((val, i) => (
