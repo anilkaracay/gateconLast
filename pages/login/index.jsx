@@ -16,7 +16,7 @@ const Login = () => {
     },
     {
       id: 2,
-      text: "Torus",
+      text: "Mail",
       icon: "torus",
     },
     {
@@ -28,7 +28,7 @@ const Login = () => {
 
   return (
     <div>
-      <Meta title="Login || Xhibiter | NFT Marketplace Next.js Template" />
+      <Meta title="Login || gatecon | WEB3 SOCIAL GAMING PLATFORM" />
       {/* <!-- Login --> */}
       <section className="relative h-screen">
         <div className="lg:flex lg:h-full">
@@ -48,7 +48,7 @@ const Login = () => {
                 height={28}
                 src="/images/logo_white.png"
                 className="inline-block max-h-7"
-                alt="Xhibiter | NFT Marketplace"
+                alt="gatecon | Web3 gaming platform"
               />
             </Link>
           </div>
@@ -71,7 +71,7 @@ const Login = () => {
                 Sign in
               </h1>
               <p className="dark:text-jacarta-300 mb-10 text-lg leading-normal">
-                Choose one of available wallet providers or create a new wallet.
+                Login with the method that suits you <br />
                 <a href="#" className="text-accent">
                   What is a wallet?
                 </a>
@@ -120,7 +120,7 @@ const Login = () => {
                         className="mr-2.5 inline-block h-6 w-6 object-contain"
                         alt="icon"
                       />
-                      <span>Torus</span>
+                      <span>Mail</span>
                     </button>
 
                     <button className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 dark:hover:bg-accent hover:bg-accent text-jacarta-700 mb-4 flex w-full items-center justify-center rounded-full border-2 bg-white py-4 px-8 text-center font-semibold transition-all hover:border-transparent hover:text-white dark:text-white dark:hover:border-transparent">
