@@ -7,7 +7,7 @@ const footer = () => {
     <>
       {/* <!-- Footer --> */}
 
-      <footer className="dark:bg-jacarta-900 page-footer bg-white">
+      <footer id="footer" className="dark:bg-jacarta-900 page-footer bg-white">
         <div className="container">
           <div className="grid grid-cols-6 gap-x-7 gap-y-14 pt-24 pb-12 md:grid-cols-12">
             <div className="col-span-3 md:col-span-4">
@@ -99,7 +99,7 @@ const footer = () => {
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">
               <li>
                 <Link
-                  href="/tarms"
+                  href="/"
                   className="hover:text-accent dark:hover:text-white"
                 >
                   Terms and conditions
@@ -107,7 +107,7 @@ const footer = () => {
               </li>
               <li>
                 <Link
-                  href="/tarms"
+                  href="/"
                   className="hover:text-accent dark:hover:text-white"
                 >
                   Privacy policy
