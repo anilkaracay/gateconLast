@@ -9,6 +9,7 @@ import Process from "../../components/blog/process";
 import Meta from "../../components/Meta";
 import Testimonial from "../../components/testimonial/Testimonial";
 import TrustedPartner from "../../components/dao/TrustedPartner";
+import Services from "../../components/services/services";
 
 const Home_1 = () => {
   return (
@@ -21,7 +22,8 @@ const Home_1 = () => {
       <FancyBlock />
       <TrustedPartner />
       {/* <Partners /> */}
-      <WalletFeature />
+      <Services />
+      {/* <WalletFeature /> */}
       {/* <Testimonial /> */}
       <DownloadAppBanner />
       {/* <NeedHelpBlock /> */}
