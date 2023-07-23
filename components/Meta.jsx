@@ -17,7 +17,7 @@ Meta.defaultProps = {
   title: "gatecon | WEB3 SOCIAL GAMING PLATFORM",
   keyword:
     "bitcoin, blockchain, crypto, crypto collectibles, crypto makretplace, cryptocurrency, digital items, market, nft, nft marketplace, nft next js, NFT react, non-fungible tokens, virtual asset, wallet",
-  desc: "The world's first and largest digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, sell, and discover exclusive digital items.",
+  desc: "Play WEB3 games the way you're used to",
 };
 
 export default Meta;
