@@ -750,7 +750,7 @@ export default function Header01() {
         </div>
         {/* mobile menu top header content */}
 
-        <form action="search" className="relative mt-24 mb-8 w-full lg:hidden">
+        {/* <form action="search" className="relative mt-24 mb-8 w-full lg:hidden">
           <input
             type="search"
             className="text-jacarta-700 placeholder-jacarta-500 focus:ring-accent border-jacarta-100 w-full rounded-2xl border py-3 px-4 pl-10 dark:border-transparent dark:bg-white/[.15] dark:text-white dark:placeholder-white"
@@ -768,7 +768,7 @@ export default function Header01() {
               <path d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z" />
             </svg>
           </span>
-        </form>
+        </form> */}
         {/* End search form mobile menu  */}
 
         <nav className="navbar w-full">
@@ -992,7 +992,7 @@ export default function Header01() {
               </ul>
             </li>
             <li className="group" onClick={() => setToggle(false)}>
-              <Link href="/create">
+              <Link href="/">
                 <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
                   <span
                     className={
@@ -1001,7 +1001,52 @@ export default function Header01() {
                         : ""
                     }
                   >
-                    Create
+                    Home
+                  </span>
+                </button>
+              </Link>
+            </li>
+            <li className="group" onClick={() => setToggle(false)}>
+              <Link href="/">
+                <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
+                  <span
+                    className={
+                      isChildrenPageActive("/create", route.asPath)
+                        ? "text-accent dark:text-accent"
+                        : ""
+                    }
+                  >
+                    Whitepaper
+                  </span>
+                </button>
+              </Link>
+            </li>
+            <li className="group" onClick={() => setToggle(false)}>
+              <Link href="/">
+                <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
+                  <span
+                    className={
+                      isChildrenPageActive("/create", route.asPath)
+                        ? "text-accent dark:text-accent"
+                        : ""
+                    }
+                  >
+                    Launchpad
+                  </span>
+                </button>
+              </Link>
+            </li>
+            <li className="group" onClick={() => setToggle(false)}>
+              <Link href="#footer">
+                <button className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5">
+                  <span
+                    className={
+                      isChildrenPageActive("/create", route.asPath)
+                        ? "text-accent dark:text-accent"
+                        : ""
+                    }
+                  >
+                    Community
                   </span>
                 </button>
               </Link>
