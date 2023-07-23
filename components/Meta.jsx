@@ -16,7 +16,7 @@ const Meta = ({ title, keyword, desc }) => {
 Meta.defaultProps = {
   title: "gatecon | WEB3 SOCIAL GAMING PLATFORM",
   keyword:
-    "bitcoin, blockchain, crypto, crypto collectibles, crypto makretplace, cryptocurrency, digital items, market, nft, nft marketplace, nft next js, NFT react, non-fungible tokens, virtual asset, wallet",
+    "web3 game, gaming, web3 gaming, blockchain game,bitcoin, blockchain, crypto, crypto collectibles, crypto makretplace, cryptocurrency, digital items, market, nft, nft marketplace, nft next js, NFT react, non-fungible tokens, virtual asset, wallet",
   desc: "Play WEB3 games the way you're used to",
 };
 
