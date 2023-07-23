@@ -8,12 +8,11 @@ const TrustedPartner = () => {
       <section className="overflow-hidden py-24 dark:bg-jacarta-900">
         <div className="container">
           <div className="mx-auto mb-14 max-w-xl text-center">
-            <h2 className="mb-6 text-center font-display text-3xl font-medium text-jacarta-700 dark:text-white">
-              They trust Us
-            </h2>
+            <h1 className="mb-6 text-center font-display text-3xl font-medium text-jacarta-700 dark:text-white">
+              Partners
+            </h1>
             <p className="text-lg dark:text-jacarta-300">
-              NFTs can be used to represent items such as photos, videos, audio,
-              and other types of digital files.
+              Our valuable partners
             </p>
           </div>
         </div>

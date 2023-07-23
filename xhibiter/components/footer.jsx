@@ -13,27 +13,27 @@ const footer = () => {
             <div className="col-span-3 md:col-span-4">
               {/* <!-- Logo --> */}
               <Link href="#" className="mb-6 inline-block">
-                <Image
+                {/* <Image
                   width={130}
                   height={28}
                   src="/images/logo.png"
                   className="max-h-7 dark:hidden"
                   alt="Xhibiter | NFT Marketplace"
-                />
+                /> */}{" "}
               </Link>
 
               <Link href="#" className=" mb-6 inline-block">
-                <Image
+                {/* <Image
                   width={130}
                   height={28}
                   src="/images/logo_white.png"
                   className="hidden max-h-7 dark:block mb-6"
                   alt="Xhibiter | NFT Marketplace"
-                />
+                /> */}
+                <h1 className="text-2xl">gatecon</h1>
               </Link>
               <p className="dark:text-jacarta-300 mb-12">
-                Create, sell and collect truly rare digital artworks. Powered by
-                blockchain technology.
+                For real gamers, made by real gamers
               </p>
 
               {/* <!-- Socials --> */}
@@ -86,14 +86,14 @@ const footer = () => {
 
           <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
-              <span>© {new Date().getFullYear()} Xhibiter — Made by</span>
-              <Link
+              <span>© {new Date().getFullYear()} gatecon</span>
+              {/* <Link
                 href="https://themeforest.net/user/ib-themes"
                 className="hover:text-accent dark:hover:text-white"
               >
                 {" "}
                 ib-themes
-              </Link>
+              </Link> */}
             </span>
 
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">

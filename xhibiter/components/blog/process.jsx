@@ -45,11 +45,10 @@ const Process = () => {
                 </svg>
               </div>
               <h3 className="mb-4 font-display text-lg text-jacarta-700 dark:text-white">
-                Connect your Wallet
+                Sign Up
               </h3>
               <p className="dark:text-jacarta-300">
-                Once {"you've"} set up your wallet of choice, connect it to
-                OpenSeaby clicking the NFT Marketplacein the top right corner.
+                Sign up with your mail as usual, without dealing with a wallet.
               </p>
             </div>
             <div className="relative rounded-2.5xl border border-jacarta-100 bg-white p-10 shadow-[0_5px_0_0_#10b981] transition-shadow hover:shadow-[0_16px_24px_-8px_rgba(16,185,129,.3)] dark:border-jacarta-700 dark:bg-jacarta-700">
@@ -76,12 +75,12 @@ const Process = () => {
                 </svg>
               </div>
               <h3 className="mb-4 font-display text-lg text-jacarta-700 dark:text-white">
-                Create your NFT Store
+                Create profile
               </h3>
               <p className="dark:text-jacarta-300">
-                Click Create and set up your collection. Add social links, a
-                description, profile & banner images, and set a secondary sales
-                fee.
+                Click Create and Set Up Your Profile. Add Social Links,
+                Description, Images and match your wallet with your mail if you
+                want
               </p>
             </div>
             <div className="relative rounded-2.5xl border border-jacarta-100 bg-white p-10 shadow-[0_5px_0_0_#ef4444] transition-shadow hover:shadow-[0_16px_24px_-8px_rgba(239,68,68,.3)] dark:border-jacarta-700 dark:bg-jacarta-700">
@@ -108,12 +107,12 @@ const Process = () => {
                 </svg>
               </div>
               <h3 className="mb-4 font-display text-lg text-jacarta-700 dark:text-white">
-                Start Selling & Growing
+                Start Playing
               </h3>
               <p className="dark:text-jacarta-300">
-                Choose between auctions, fixed-price listings, and
-                declining-price listings. You choose how you want to sell your
-                NFTs!
+                Choose the game from your desired category, enjoy the game
+                without paying gas fees, and without pressing the confirmation
+                button in the wallet
               </p>
             </div>
           </div>

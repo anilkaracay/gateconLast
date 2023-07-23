@@ -7,22 +7,22 @@ const footerMenuList = [
       {
         id: 1,
         href: "#",
-        text: "All NFTs",
+        text: "All Games",
       },
       {
         id: 2,
         href: "#",
-        text: "art",
+        text: "FPS",
       },
       {
         id: 3,
         href: "#",
-        text: "music",
+        text: "RPG",
       },
       {
         id: 4,
         href: "#",
-        text: "domain names",
+        text: "Card",
       },
       {
         id: 5,
@@ -91,7 +91,7 @@ const footerMenuList = [
       {
         id: 4,
         href: "#",
-        text: "Create Item",
+        text: "Buy Item",
       },
     ],
   },

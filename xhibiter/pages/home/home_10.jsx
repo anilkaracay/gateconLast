@@ -8,6 +8,7 @@ import Hero_10 from "../../components/hero/hero_10";
 import Process from "../../components/blog/process";
 import Meta from "../../components/Meta";
 import Testimonial from "../../components/testimonial/Testimonial";
+import TrustedPartner from "../../components/dao/TrustedPartner";
 
 const Home_1 = () => {
   return (
@@ -18,11 +19,12 @@ const Home_1 = () => {
       <Feature />
       <Process />
       <FancyBlock />
-      <Partners />
+      <TrustedPartner />
+      {/* <Partners /> */}
       <WalletFeature />
       {/* <Testimonial /> */}
       <DownloadAppBanner />
-      <NeedHelpBlock />
+      {/* <NeedHelpBlock /> */}
     </main>
   );
 };

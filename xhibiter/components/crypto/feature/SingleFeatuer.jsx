@@ -31,8 +31,8 @@ const SingleFeatuer = () => {
       bgLight: "bg-[#FFD0D0]",
       bgFill: "bg-red",
       icon: "4",
-      meta: "$0.00023",
-      textInfo: "Lowest transaction fees",
+      meta: "2800+",
+      textInfo: "Game Companies",
     },
   ];
   return (
