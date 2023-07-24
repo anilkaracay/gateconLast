@@ -68,10 +68,17 @@ const DownloadAppBanner = () => {
           {/* End :lg=prder-1 */}
 
           <div className="order-3 text-center lg:order-2 lg:w-1/4 lg:self-end xl:w-[40%]">
-            <Image
+            {/* <Image
               width={375}
               height={336}
               src="/images/mobile_app_iphone.png"
+              className="inline-block object-contain"
+              alt="banner"
+            /> */}
+            <Image
+              width={375}
+              height={336}
+              src="/images/footer-app.png"
               className="inline-block object-contain"
               alt="banner"
             />

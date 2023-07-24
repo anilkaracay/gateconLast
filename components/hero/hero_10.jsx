@@ -66,7 +66,7 @@ const Hero_10 = () => {
               <Image
                 width={343}
                 height={694}
-                src="/images/hero/hero_crypto_app.png"
+                src="/images/hero/gatecon-app-hero.png"
                 alt="hero"
                 className="inline-block"
               />
