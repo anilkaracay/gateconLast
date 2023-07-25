@@ -5,6 +5,8 @@ const FancyBlock = () => {
     ` Easy Onboarding`,
     `  User Friendly Experience`,
     ` No crypto required`,
+    ` No paying gas fees`,
+    ` No signing transactions`,
   ];
 
   return (
